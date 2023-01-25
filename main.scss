@@ -1,0 +1,82 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family:sans;
+}
+.Nav{
+    background-color: #106a16;
+    padding: 2rem;
+    color: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    &__logo{
+        height: 30px;
+        
+    }
+    p{
+        font-weight: bold;
+    }
+}
+.card__container{
+    padding: 4rem 2rem;
+
+}
+.card{
+   
+    display: flex;
+    gap: 10px;
+    margin-bottom: 2rem;
+    &__image-container{
+       height: 25rem;
+       width: 22rem;
+       
+       margin: 1rem;
+       
+       img{
+           object-fit: cover;
+           height: 100%;
+           width: 100%;
+           display: block;
+           border-radius: 10px;
+           
+        }
+    }
+    &__content{
+       
+        padding: 3.5rem 1rem;
+        width: auto;
+       
+        &--location{
+            display: flex;
+            gap: 1rem;
+            img{
+                height: 1.2rem;
+                fill: red;
+            }
+            .location{
+                text-transform: uppercase;
+            }
+            a{
+                color: gray;
+            }
+            
+        }
+        .title{
+            text-transform: capitalize;
+            margin-bottom: 2rem;
+        }
+        .opens{
+            text-transform: capitalize;
+            font-weight: 600;
+            margin-bottom: 10px;
+        }
+        .description{
+            font-weight: 500;
+            width: 40rem;
+            line-height:1.7;
+        }
+    }
+}
